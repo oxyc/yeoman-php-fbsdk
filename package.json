@@ -1,0 +1,23 @@
+{
+  "name": "yeoman-php-fbsdk",
+  "main": "./lib/generators",
+  "author": {
+    "name": "Oskar Schöldström",
+    "email": "public@oxy.fi"
+  },
+  "version": "0.0.1",
+  "scripts": { "test": "yeoman test" },
+  "dependencies": {
+    "grunt": "http://github.com/cowboy/grunt/archive/0ba6d4b529.tar.gz",
+    "yeoman": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "rimraf": "~2.0.2",
+    "yeoman-generators": "git://github.com/yeoman/generators.git"
+  }
+}

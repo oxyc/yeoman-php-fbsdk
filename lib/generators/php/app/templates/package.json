@@ -1,0 +1,19 @@
+{
+    "name": "<%= grunt.util._.classify(name) %>"
+  , "description": "<%= description %>"
+  , "version": "0.0.1"
+  , "author": [{
+      "name": "<%= author %>"
+  }]
+  , "scripts": { "test" : "yeoman test" }
+  , "devDependencies": {
+      "mocha": "*"
+    , "should": "*"
+    , "grunt-rm": "*"
+    , "grunt-doccoh": "*"
+    , "grunt-docs-landing": "git://github.com/oxyc/grunt-docs-landing.git"
+    , "grunt-shell": "*"
+    , "grunt-contrib-connect": "*"
+    , "gateway": "*"
+  }
+}
