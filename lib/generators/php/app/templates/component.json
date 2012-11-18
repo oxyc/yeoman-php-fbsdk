@@ -10,6 +10,7 @@
     , "modernizr": "~2.6.2"
     , "bootstrap": "~2.2.1"
     , "requirejs-text": "~2.0.3"
+    , "jquery-placeholder": "*"
 
     , "backbone.analytics": "git://github.com/kendagriff/backbone.analytics.git"
 
