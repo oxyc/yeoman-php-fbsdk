@@ -23,7 +23,7 @@ module.exports = function( grunt ) {
         options: readOptionalJSON('.jshintrc'),
       },
       tests: {
-        files: { src: ['test/**/*.js'] },
+        files: { src: ['test/*.js'] },
         options: {
           options: readOptionalJSON('test/.jshintrc'),
           globals: { describe: true, before: true, after: true, it: true, beforeEach: true, afterEach: true, expect: true }
